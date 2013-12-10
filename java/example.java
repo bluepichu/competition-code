@@ -2,9 +2,12 @@
 // Written by Matthew Savage as a part of the competition-code repository (github.com/BluePichu/competition-code)
 // This code may be used or modified but the header and copyright must remain.
 
+// ---------------------------------------------------------------------------
+
 // A shell for Java competition file
 // To use this code, I suggest doing a find/replace on "example" to replace it with the problem name
 
+// ---------------------------------------------------------------------------
 
 import java.io.*;
 import java.util.*;

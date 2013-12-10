@@ -1,3 +1,13 @@
+// Copyright (c) 2013 Matthew Savage
+// Written by Matthew Savage as a part of the competition-code repository (github.com/BluePichu/competition-code)
+// This code may be used or modified but the header and copyright must remain.
+
+// ---------------------------------------------------------------------------
+
+// String searching/matching algorithms
+
+// ---------------------------------------------------------------------------
+
 // An implementation of the Knuth-Morris-Pratt algorithm
 // Finds the indices of the first character of all instances of target in toMatch
 
