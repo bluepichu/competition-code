@@ -13,17 +13,17 @@ import java.io.*;
 import java.util.*;
 
 public class example{
-	public static void main(String[] args) throws IOException{
+   public static void main(String[] args) throws IOException{
       // use the following two lines for file I/O (e.g., USACO)
-		BufferedReader br = new BufferedReader(new FileReader("example.in"));
-		PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("example.out")));
-		
-		// use the following two lines for std I/O (e.g., Codeforces)
+      BufferedReader br = new BufferedReader(new FileReader("example.in"));
+      PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("example.out")));
+      
+      // use the following two lines for std I/O (e.g., Codeforces)
       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		PrintWriter pw = new PrintWriter(System.out);
-		
+      PrintWriter pw = new PrintWriter(System.out);
+      
       // make sure to leave these lines here to ensure that all I/O is flushed when the program terminates
-		br.close();
-		pw.close();
-	}
+      br.close();
+      pw.close();
+   }
 }
