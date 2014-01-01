@@ -11,8 +11,9 @@
 // An implementation of the Knuth-Morris-Pratt algorithm
 // Finds the indices of the first character of all instances of target in toMatch
 
-// Complexity: O(n)
+// Complexity: O(n + m)
 //   n is the length of toMatch
+//   m is the length of target
 
 // Arguments:
 //   String toMatch - the string in which to search for instances of target
@@ -56,8 +57,9 @@ public static Integer[] stringMatchAll(String toMatch, String target){
 // An implementation of the Knuth-Morris-Pratt algorithm
 // Finds the index of the first character of the first instance of target in toMatch
 
-// Complexity: O(n)
+// Complexity: O(n + m)
 //   n is the length of toMatch
+//   m is the length of target
 
 // Arguments:
 //   String toMatch - the string in which to search for instances of target
